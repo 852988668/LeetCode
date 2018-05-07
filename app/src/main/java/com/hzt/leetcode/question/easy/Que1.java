@@ -15,7 +15,7 @@ import com.hzt.leetcode.question.IQuestion;
  * 所以返回 [0, 1]
  */
 
-public class SolutionQue1 implements IQuestion {
+public class Que1 implements IQuestion {
 
     @Override
     public void run() {
