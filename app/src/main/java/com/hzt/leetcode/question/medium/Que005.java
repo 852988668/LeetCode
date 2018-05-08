@@ -17,7 +17,7 @@ import com.hzt.leetcode.question.IQuestion;
  * 输入: "cbbd"
  * 输出: "bb"
  */
-public class Que5 implements IQuestion {
+public class Que005 implements IQuestion {
     @Override
     public void run() {
         Log.i("Que5", longestPalindrome("abcda"));

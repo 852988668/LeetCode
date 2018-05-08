@@ -18,7 +18,7 @@ import java.util.List;
  * 给定 "pwwkew" ，最长子串是 "wke" ，长度是3。请注意答案必须是一个子串，"pwke" 是 子序列  而不是子串。
  **/
 
-public class Que3 implements IQuestion {
+public class Que003 implements IQuestion {
     @Override
     public void run() {
         lengthOfLongestSubstring("abcabcbb");
