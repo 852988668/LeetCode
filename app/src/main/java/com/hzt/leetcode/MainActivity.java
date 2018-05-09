@@ -6,7 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import com.hzt.leetcode.question.IQuestion;
 import com.hzt.leetcode.question.easy.Que007;
 import com.hzt.leetcode.question.medium.Que006;
+import com.hzt.leetcode.question.medium.Que011;
 
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 
@@ -19,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        question = new Que007();
+        ButterKnife.bind(this) ;
+        question = new Que011();
         question.run();
     }
 
