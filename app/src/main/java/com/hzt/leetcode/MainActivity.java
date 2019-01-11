@@ -4,9 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.hzt.leetcode.question.IQuestion;
-import com.hzt.leetcode.question.easy.Que066;
-import com.hzt.leetcode.question.medium.Que078;
-import com.hzt.leetcode.question.medium.Que881;
+import com.hzt.leetcode.question.Q001_Q100.medium.Que078;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
