@@ -1,5 +1,6 @@
 package com.hzt.leetcode.question.medium;
 
+import com.hzt.leetcode.ListNode;
 import com.hzt.leetcode.question.IQuestion;
 
 import java.util.ArrayList;
@@ -19,15 +20,6 @@ public class Que002 implements IQuestion {
 
     @Override
     public void run() {
-    }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
